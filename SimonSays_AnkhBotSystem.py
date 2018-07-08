@@ -85,6 +85,9 @@ def Init():
     global delay
     delay = 0
 
+    global word
+    word = ""
+
     global nouns
     nouns = [
         'people',
