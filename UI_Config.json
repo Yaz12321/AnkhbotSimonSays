@@ -11,7 +11,7 @@
     "type": "numberbox",
     "value": 30,
     "label": "Payout",
-    "tooltip": "How many points to give to the user who does what Simon Says,
+    "tooltip": "How many points to give to the user who does what Simon Says",
     "group": "General"
   },
     "MinDelay": {
