@@ -12,8 +12,8 @@ import time
 ScriptName = "SimonSays"
 Website = ""
 Creator = "Yaz12321"
-Version = "0.1"
-Description = "Select a secret word. Once someone says it in chat: they win."
+Version = "1.0"
+Description = "Bot sends random words, whoever sends it back first wins."
 
 settingsFile = os.path.join(os.path.dirname(__file__), "settings.json")
 
@@ -23,11 +23,8 @@ settingsFile = os.path.join(os.path.dirname(__file__), "settings.json")
 
 # Version:
 
-# Version 0.1:
-    # Beta release. Game functions perfectly. Reset yet to be added. Secret word continues to work after it has been guessed.
-
-#Future fixes:
-    # disable game or reset secret word once it was guessed.
+# Version 1.0:
+    # Official Release
 
 
 class Settings:
