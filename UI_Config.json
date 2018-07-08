@@ -1,0 +1,47 @@
+﻿{
+  "output_file": "settings.json",
+    "OnlyLive": {
+    "type": "checkbox",
+    "value": true,
+  	"label": "Only when live",
+    "tooltip": "Command is only active when stream is live",
+  	"group": "General"
+  },
+    "Payout": {
+    "type": "numberbox",
+    "value": 30,
+    "label": "Payout",
+    "tooltip": "How many points to give to the user who does what Simon Says,
+    "group": "General"
+  },
+    "MinDelay": {
+    "type": "numberbox",
+    "value": 300,
+    "label": "Minimum delay (seconds)",
+    "tooltip": "Simon Says will happen after more than this many seconds",
+    "group": "General"
+  },
+    "MaxDelay": {
+    "type": "numberbox",
+    "value": 600,
+    "label": "Maximum delay (seconds)",
+    "tooltip": "Simon Says will happen after less than this many seconds",
+    "group": "General"
+  },
+
+    "SimonSays": {
+    "type": "textbox",
+    "value": "Simon Says be the first to send \" {0} \" in chat and win {1} {2}",
+    "label": "Simon Says message",
+    "tooltip": " {0} = Word \r\n {1} = payout \r\n {2} = currency name",
+    "group": "General"
+  },
+    "WinResponse": {
+    "type": "textbox",
+    "value": "{0} did what Simon Said, and won {1} {2}",
+    "label": "Success message",
+    "tooltip": " {0} = user \r\n {1} = payout \r\n {2} = currency name",
+    "group": "General"
+  },
+
+}
